@@ -69,12 +69,109 @@ ul
 table
 {
   border: 1px solid black;
-  border-spacing: 100px;
+  /* border-spacing: 100px; */
   border-collapse: collapse;
 }
 
 td, th
 {
-  border: 1px solid black;
-  padding: 15px;
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.maturityLevel
+{
+  background-color: lightgrey
+}
+
+.rotatedText
+{
+  font-size: 13pt;
+  color: white;
+  writing-mode: vertical-lr;
+  text-align: center;
+  transform: rotate(180deg);
+}
+
+.subClassStrategie
+{
+  background-color: rgba(141,147,209,255);
+}
+
+.subClassEcosystemen
+{
+  background: rgba(233,102,161,255);
+}
+
+.subClassGovernance
+{
+  background-color: rgba(179,179,179,255);
+}
+
+.subClassCultuur
+{
+  background-color: rgba(130,195,246,255);
+}
+
+.subClassResultaat
+{
+  background-color: rgba(188,227,149,255);
+}
+
+.textStrategie
+{
+  background-color: rgba(179,183,224,255);
+}
+
+.textEcosystemen
+{
+ background-color: rgba(240,153,193,255);
+}
+
+.textCultuur
+{
+  background-color: rgba(171,215,249,255);
+}
+
+.textGovernance
+{
+  background-color: rgba(204,204,204,255);
+}
+
+.textResultaat
+{
+  background-color: rgba(210,237,184,255);
+}
+
+/* d3 tip from http://bl.ocks.org/Caged/6476579*/
+.d3-tip {
+  line-height: 1;
+
+  font-weight: normal;
+  padding: 12px;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: white;
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
 }
