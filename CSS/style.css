@@ -1,0 +1,57 @@
+/* Tobias Maätita
+   CSS file supplying layout to github pages.*/
+   /* Several of these instances are retrieved from https://www.w3schools.com/css/ */
+
+/* fill viewport, hide scroll bar */
+html, body
+{
+    height: 100%;
+    overflow: scroll;
+    background: lightgrey;
+}
+
+/* headers styles */
+h1
+{
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+
+
+/* paragraph style */
+p
+{
+  font-family: Arial;
+  text-align: justify;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* ensure content is below navbar */
+div.container-fluid
+{
+  padding-top: 20px;
+  overflow: scroll;
+  height: 100%;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+table
+{
+  border: 1px solid black;
+}
+
+td
+{
+  border: 1px solid black;
+}
+
+th
+{
+  border: 1px solid black
+}
