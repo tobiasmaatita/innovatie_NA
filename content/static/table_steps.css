@@ -7,7 +7,30 @@ html, body
 {
     height: 100%;
     overflow: scroll;
-    background: lightgrey;
+    background: white;
+}
+
+/* navbar */
+.topnav
+{
+  background-color: #333;
+  overflow: scroll;
+}
+
+.topnav a
+{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover
+{
+    background-color: #3E99E9;
+    color: black;
 }
 
 /* headers styles */
@@ -44,14 +67,12 @@ ul
 table
 {
   border: 1px solid black;
+  border-spacing: 100px;
+  border-collapse: collapse;
 }
 
-td
+td, th
 {
   border: 1px solid black;
-}
-
-th
-{
-  border: 1px solid black
+  padding: 15px;
 }
