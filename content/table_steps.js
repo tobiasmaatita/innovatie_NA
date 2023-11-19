@@ -25,11 +25,14 @@ table.append("tbody")
 .enter().append("td")
 .style("border", "1px black solid")
 .style("padding", "5px")
+.style("background-color", "powderblue")
 .on("mouseover", function(){
-    d3.select(this).style("background-color", "powderblue");
+    d3.select(this).style("background-color", "darkblue")
+    .style("color", "white");
 })
 .on("mouseout", function(){
-    d3.select(this).style("background-color", "white");
+    d3.select(this).style("background-color", "powderblue")
+    .style("color", "black");
 })
 .text(function(d){return d; })
 .style("font-size", "12px");

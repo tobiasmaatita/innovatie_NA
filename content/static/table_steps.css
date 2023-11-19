@@ -55,6 +55,7 @@ p
 div.container-fluid
 {
   padding-top: 20px;
+  position: relative;
   overflow: scroll;
   height: 100%;
 }
@@ -64,6 +65,7 @@ ul
   list-style-type: none;
 }
 
+/* table */
 table
 {
   border: 1px solid black;
